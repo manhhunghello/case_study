@@ -79,7 +79,7 @@ html {
 }
 #nav .subnav {
     display: none;
-    min-width: 200px; /* khi content dai ra thi no cung dai ra */
+    min-width: 250px; /* khi content dai ra thi no cung dai ra */
     position: absolute;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
@@ -100,12 +100,19 @@ html {
     border: red;
 
 }
-.abc {
-    display: flex;
-    justify-content: flex-start;
+.all-product {
+    margin:80px 150px;
+    display:flex;
+    justify-content:space-around;
     flex-wrap: wrap;
 }
+#result{
 
+    background:antiquewhite;
+    border-radius: 12px 12px 12px 12px;
+
+
+}
 
 
 #slider {
@@ -117,9 +124,15 @@ html {
 #content {
 
 }
+.f1 {
+    background: blanchedalmond;
+    color:black;
+    text-align: center;
 
-#footer {
+
+
 
 }
+
 
 

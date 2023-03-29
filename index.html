@@ -4,172 +4,128 @@
     <meta charset="UTF-8">
     <title>Shop Hung Shose</title>
     <link rel="stylesheet" href="style.css">
+
+
 </head>
 <body>
-
-<!--<div id="123" style="position: relative">-->
-<!--<button style="width:20%; color: red; background:blanchedalmond; border-radius: 10px 10px 10px 10px;" id="btn" onmouseover="myFunction()" onmouseout="myFunction()">Thêm Sản Phẩm</button>-->
-<!--<span><div id="result"></div></span>-->
-<!--</div>-->
 <header id="all-header">
-
-
-    <!--    <div id="logo_header">-->
-    <!--       <div><img src="Hung%20Shose.png" style="font-size: 20px" alt="Perfect gift not found"></div>-->
-    <!--        <input type="text" style="border: white" placeholder="Tìm Kiếm......" class="input-group">-->
-    <!--        <i>Tài Khoản</i>-->
-    <!--    </div>-->
     <div id="main">
         <div id="header" align="center">
             <div id="logo_header">
                 <div><img src="Hung%20Shose.png" style="font-size: 20px" alt="Perfect gift not found"></div>
-                <input type="text" placeholder="Tìm Kiếm......" class="input-group">
+                    <input type="text" placeholder="Tìm Kiếm......" class="input-group">
 
 
-                <a href="" style="font-size: 20px;text-decoration: none; color: black; white-space: nowrap; ">
-                    Account</a>
-                <img src="https://png.pngtree.com/png-clipart/20200225/original/pngtree-shopping-cart-icon-simple-png-image_5272243.jpg"
-                     style="width: 3%" height="35px">
+                    <a href="" style="font-size: 20px;text-decoration: none; color: black; white-space: nowrap; ">
+                        Account</a>
+                    <img src="https://png.pngtree.com/png-clipart/20200225/original/pngtree-shopping-cart-icon-simple-png-image_5272243.jpg"
+                         style="width: 3%" height="35px">
+                    <button style=" background: white; width:20%; height: 30px" onclick="myFunction()">ADD PRODUCT
+                    </button>
+                    <p style="position: fixed;z-index: 1; width:500px" id="result"></p>
+
+                </div>
+                <ul id="nav">
+                    <li>
+                        <a href="#Sneaker">Sneaker Rep 1:1</a>
+
+                        <ul class="subnav"> <!--  ul.subnav>li*3>a-->
+                            <li><a href=""></a> A BA.THING APE Rep 1:1</li>
+                            <li><a href=""></a> Air Force 1 Rep 1:1</li>
+                            <li><a href=""></a> Air Jordan 1 Low Rep 1:1</li>
+                            <li><a href=""></a> Air Jordan 1 Mid & High Rep 1:1</li>
+                            <li><a href=""></a> Air Jordan 3 Rep 1:1</li>
+                            <li><a href=""></a> Air Jordan 4 Rep 1:1</li>
+                            <li><a href=""></a> Blazer Rep 1:1</li>
+                            <li><a href=""></a> Dunk & SB Dunk Rep 1:1</li>
+
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#All">ALL</a>
+                        <ul class="subnav"> <!--  ul.subnav>li*3>a-->
+                            <li><a href=""></a></li>
+
+                        </ul>
 
 
-                <!--            <    <span style="position: fixed ; background: white ">-->
+                    </li>
+                    <li>
+                        <a href="#Sale">Sale 30%-80%</a>
+                        <ul class="subnav"> <!--  ul.subnav>li*3>a-->
+                            <li><a href=""></a></li>
 
-                <button style=" background: white; width:20%; height: 30px" onclick="myFunction()">ADD PRODUCT</button>
-                <p style="position: fixed;z-index: 1;background:white ; width: 50%" id="result"></p>
+                        </ul>
 
-                <!--                </span>-->
+                    </li>
+                    <li>
+                        <a href="#Nike">Nike</a>
+                        <ul class="subnav"> <!--  ul.subnav>li*3>a-->
+                            <li><a href=""></a> Air Force 1</li>
+                            <li><a href=""></a> Air Jordan 1 Low</li>
+                            <li><a href=""></a>Air Jordan 1 Mid & High</li>
+                            <li><a href=""></a>Air Jordan 3</li>
+                            <li><a href=""></a> Air Jordan 4</li>
+                            <li><a href=""></a>Air Max 1</li>
+                            <li><a href=""></a> Air Max 270</li>
+                            <li><a href=""></a> Air Tailwind</li>
+                            <li><a href=""></a> Blazer</li>
+                            <li><a href=""></a> Cortez Classic</li>
+                            <li><a href=""></a>Joyride Run Flyknit Blue</li>
+                            <li><a href=""></a>M2K Tekno</li>
+                            <li><a href=""></a> SB Dunk</li>
+
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#Adidas">Adidas</a>
+                        <ul class="subnav"> <!--  ul.subnav>li*3>a-->
+                            <li><a href=""></a>EQ21</li>
+                            <li><a href=""></a>FORUM 84</li>
+                            <li><a href=""></a>Ultra Boost</li>
+                            <li><a href=""></a>Stan Smith</li>
+                            <li><a href=""></a> SuperStar</li>
+                            <li><a href=""></a> Yeezy Boost</li>
+                            <li><a href=""></a>SAMBA</li>
+
+                        </ul>
+                    </li>
+                    <li><a href="#Vans">Vans</a></li>
+                    <li><a href="#Converse">Converse</a></li>
+                    <li><a href="#Pk">Hãng Khác</a></li>
+                    <li><a href="#Pk">Quần Áo</a></li>
+                    <li>
+                        <a href="#Pk">Phụ Kiện</a>
+                        <ul class="subnav"> <!--  ul.subnav>li*3>a-->
+                            <li><a href=""></a> Ultra Boost</li>
+                            <li><a href=""></a> Stand Smith</li>
+                            <li><a href=""></a> Supper Star</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#TB"> Nhận Thông Báo Sale</a>
+                        <ul class="subnav"> <!--  ul.subnav>li*3>a-->
+                            <li><a href=""></a> Ultra Boost</li>
+                            <li><a href=""></a> Stand Smith</li>
+                            <li><a href=""></a> Supper Star</li>
+                        </ul>
+                    </li>
 
 
-                <!--                <div style="width: 300px">-->
-                <!--                <div>-->
-                <!--                    <div id="123" style="; position: fixed">-->
-                <!--                    -->
-                <!--                        <img src="https://png.pngtree.com/png-clipart/20200225/original/pngtree-shopping-cart-icon-simple-png-image_5272243.jpg"-->
-                <!--                             style="height: 40px;width: 6%">-->
-                <!--                        <button style=" line-height: 1; ">Giỏ hàng ( 0 )</button>-->
-                <!--                        <button style="width:30%; color: red; background:blanchedalmond; border-radius: 10px 10px 10px 10px;"-->
-                <!--                                id="btn" onmouseover="myFunction()" onmouseout="myFunction()">Thêm Sản Phẩm-->
-                <!--                        </button>-->
-                <!--                        <p id="result"></p>-->
-                <!--                    </div>-->
-                <!--                </div>-->
+                </ul>
+                <br><br><br>
+            </div>
 
-                <!--                    (<span >0</span>) Sản phẩm-->
+            <div id="slider">
 
+            </div>
+            <div id="content">
 
-                <!--                <div id="123" style="; position: fixed">-->
-                <!--                    <button style="width:30%; color: red; background:blanchedalmond; border-radius: 10px 10px 10px 10px;"-->
-                <!--                            id="btn" onmouseover="myFunction()" onmouseout="myFunction()">Thêm Sản Phẩm-->
-                <!--                    </button>-->
-                <!--                    <div id="result"></div>-->
-                <!--                </div>-->
-
-                <!--                </div>-->
 
 
             </div>
-            <ul id="nav">
-                <li>
-                    <a href="#Sneaker">Sneaker Rep 1:1</a>
-
-                    <ul class="subnav"> <!--  ul.subnav>li*3>a-->
-                        <li><a href=""></a> A BA.THING APE Rep 1:1</li>
-                        <li><a href=""></a> Air Force 1 Rep 1:1</li>
-                        <li><a href=""></a> Air Jordan 1 Low Rep 1:1</li>
-                        <li><a href=""></a> Air Jordan 1 Mid & High Rep 1:1</li>
-                        <li><a href=""></a> Air Jordan 3 Rep 1:1</li>
-                        <li><a href=""></a> Air Jordan 4 Rep 1:1</li>
-                        <li><a href=""></a> Blazer Rep 1:1</li>
-                        <li><a href=""></a> Dunk & SB Dunk Rep 1:1</li>
-
-                    </ul>
-                </li>
-                <li>
-                    <a href="#All">ALL</a>
-                    <ul class="subnav"> <!--  ul.subnav>li*3>a-->
-                        <li><a href=""></a></li>
-
-                    </ul>
-
-
-                </li>
-                <li>
-                    <a href="#Sale">Sale 30%-80%</a>
-                    <ul class="subnav"> <!--  ul.subnav>li*3>a-->
-                        <li><a href=""></a></li>
-
-                    </ul>
-
-                </li>
-                <li>
-                    <a href="#Nike">Nike</a>
-                    <ul class="subnav"> <!--  ul.subnav>li*3>a-->
-                        <li><a href=""></a> Air Force 1</li>
-                        <li><a href=""></a> Air Jordan 1 Low</li>
-                        <li><a href=""></a>Air Jordan 1 Mid & High</li>
-                        <li><a href=""></a>Air Jordan 3</li>
-                        <li><a href=""></a> Air Jordan 4</li>
-                        <li><a href=""></a>Air Max 1</li>
-                        <li><a href=""></a> Air Max 270</li>
-                        <li><a href=""></a> Air Tailwind</li>
-                        <li><a href=""></a> Blazer</li>
-                        <li><a href=""></a> Cortez Classic</li>
-                        <li><a href=""></a>Joyride Run Flyknit Blue</li>
-                        <li><a href=""></a>M2K Tekno</li>
-                        <li><a href=""></a> SB Dunk</li>
-
-                    </ul>
-                </li>
-                <li>
-                    <a href="#Adidas">Adidas</a>
-                    <ul class="subnav"> <!--  ul.subnav>li*3>a-->
-                        <li><a href=""></a>EQ21</li>
-                        <li><a href=""></a>FORUM 84</li>
-                        <li><a href=""></a>Ultra Boost</li>
-                        <li><a href=""></a>Stan Smith</li>
-                        <li><a href=""></a> SuperStar</li>
-                        <li><a href=""></a> Yeezy Boost</li>
-                        <li><a href=""></a>SAMBA</li>
-
-                    </ul>
-                </li>
-                <li><a href="#Vans">Vans</a></li>
-                <li><a href="#Converse">Converse</a></li>
-                <li><a href="#Pk">Hãng Khác</a></li>
-                <li><a href="#Pk">Quần Áo</a></li>
-                <li>
-                    <a href="#Pk">Phụ Kiện</a>
-                    <ul class="subnav"> <!--  ul.subnav>li*3>a-->
-                        <li><a href=""></a> Ultra Boost</li>
-                        <li><a href=""></a> Stand Smith</li>
-                        <li><a href=""></a> Supper Star</li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#TB"> Nhận Thông Báo Sale</a>
-                    <ul class="subnav"> <!--  ul.subnav>li*3>a-->
-                        <li><a href=""></a> Ultra Boost</li>
-                        <li><a href=""></a> Stand Smith</li>
-                        <li><a href=""></a> Supper Star</li>
-                    </ul>
-                </li>
-
-
-            </ul>
-            <br><br><br>
-        </div>
-
-        <div id="slider">
 
         </div>
-        <div id="content">
-
-        </div>
-        <div id="footer">
-
-        </div>
-
-    </div>
 
 
 </header>
@@ -179,241 +135,17 @@
 <br>
 <h2 style="text-align: center">SẢN PHẨM NỔI BẬT</h2>
 <br>
-<hr style="width:16%;text-align:center; color: red">
+<hr  style="width:16%;text-align:center; color: red">
 <!--<hr style="text-align: center" size="5px" width="30%"  />-->
 
 
-<div class="all-product" style="margin:80px 150px; display:flex; justify-content:space-around; flex-wrap: wrap;"
-     id="render-product">
+<div class="all-product" id="render-product">
 
 </div>
+<div id="footer"></div>
+<script src="menu.js"></script>
+
+
+<script src="footer.js"></script>
 </body>
-<script>
-
-    let dataAllProduct = [
-        {
-            img: "https://bizweb.dktcdn.net/thumb/1024x1024/100/336/177/products/7-4bf90c75-ee66-466a-b051-b993f3cfb5f0.jpg?v=1679048580127",
-            name: "Nike",
-            price: 1000000
-        },
-        {
-            img: "https://bizweb.dktcdn.net/thumb/1024x1024/100/336/177/products/1-4080110b-59d0-49c0-989b-61a1b597d526.jpg?v=1676967371430",
-            name: "Adidas",
-            price: 2000000
-        },
-        {
-            img: "https://bizweb.dktcdn.net/thumb/1024x1024/100/336/177/products/7-0966dca2-57c4-4ce9-b023-3c6eb42e05a0.jpg?v=1659612034717",
-            name: "Nike",
-            price: 3000000
-        },
-        {
-            img: "https://bizweb.dktcdn.net/thumb/1024x1024/100/336/177/products/31-21df0da4-c7b5-482a-9cb5-9c5a85f543bf.jpg?v=1671596539513",
-            name: "Adidas",
-            price: 4000000
-        },
-        {
-            img: "https://bizweb.dktcdn.net/thumb/1024x1024/100/336/177/products/6-388322da-c8c8-4788-b554-58c19436297d.jpg?v=1667726867210",
-            name: "Nike",
-            price: 5000000
-        },
-        {
-            img: "https://bizweb.dktcdn.net/thumb/1024x1024/100/336/177/products/1-16d8f466-71f5-45bf-9e00-6f221db1ec0c.jpg?v=1661500037070",
-            name: "Nike",
-            price: 6000000
-        },
-        {
-            img: "https://bizweb.dktcdn.net/thumb/1024x1024/100/336/177/products/5-3fb43760-763c-4c3f-89e1-fec01717ac5f.jpg?v=1679646687380",
-            name: "Nike",
-            price: 7000000
-        },
-        {
-            img: "https://bizweb.dktcdn.net/thumb/1024x1024/100/336/177/products/14-ed77366a-7214-435d-b2d0-1f6da3b783ce.jpg?v=1671701343243",
-            name: "Nike",
-            price: 8000000
-        },
-        {
-            img: "https://bizweb.dktcdn.net/thumb/1024x1024/100/336/177/products/7-4bf90c75-ee66-466a-b051-b993f3cfb5f0.jpg?v=1679048580127",
-            name: "Nike",
-            price: 1000000
-        },
-        {
-            img: "https://bizweb.dktcdn.net/thumb/1024x1024/100/336/177/products/1-4080110b-59d0-49c0-989b-61a1b597d526.jpg?v=1676967371430",
-            name: "Adidas",
-            price: 2000000
-        },
-        {
-            img: "https://bizweb.dktcdn.net/thumb/1024x1024/100/336/177/products/7-0966dca2-57c4-4ce9-b023-3c6eb42e05a0.jpg?v=1659612034717",
-            name: "Nike",
-            price: 3000000
-        },
-        {
-            img: "https://bizweb.dktcdn.net/thumb/1024x1024/100/336/177/products/31-21df0da4-c7b5-482a-9cb5-9c5a85f543bf.jpg?v=1671596539513",
-            name: "Adidas",
-            price: 4000000
-        },
-        {
-            img: "https://bizweb.dktcdn.net/thumb/1024x1024/100/336/177/products/6-388322da-c8c8-4788-b554-58c19436297d.jpg?v=1667726867210",
-            name: "Nike",
-            price: 5000000
-        },
-        {
-            img: "https://bizweb.dktcdn.net/thumb/1024x1024/100/336/177/products/1-16d8f466-71f5-45bf-9e00-6f221db1ec0c.jpg?v=1661500037070",
-            name: "Nike",
-            price: 6000000
-        },
-        {
-            img: "https://bizweb.dktcdn.net/thumb/1024x1024/100/336/177/products/5-3fb43760-763c-4c3f-89e1-fec01717ac5f.jpg?v=1679646687380",
-            name: "Nike",
-            price: 7000000
-        },
-        {
-            img: "https://bizweb.dktcdn.net/thumb/1024x1024/100/336/177/products/14-ed77366a-7214-435d-b2d0-1f6da3b783ce.jpg?v=1671701343243",
-            name: "Nike",
-            price: 8000000
-        }, {
-            img: "https://bizweb.dktcdn.net/thumb/1024x1024/100/336/177/products/7-4bf90c75-ee66-466a-b051-b993f3cfb5f0.jpg?v=1679048580127",
-            name: "Nike",
-            price: 1000000
-        },
-        {
-            img: "https://bizweb.dktcdn.net/thumb/1024x1024/100/336/177/products/1-4080110b-59d0-49c0-989b-61a1b597d526.jpg?v=1676967371430",
-            name: "Adidas",
-            price: 2000000
-        },
-        {
-            img: "https://bizweb.dktcdn.net/thumb/1024x1024/100/336/177/products/7-0966dca2-57c4-4ce9-b023-3c6eb42e05a0.jpg?v=1659612034717",
-            name: "Nike",
-            price: 3000000
-        },
-        {
-            img: "https://bizweb.dktcdn.net/thumb/1024x1024/100/336/177/products/31-21df0da4-c7b5-482a-9cb5-9c5a85f543bf.jpg?v=1671596539513",
-            name: "Adidas",
-            price: 4000000
-        },
-        {
-            img: "https://bizweb.dktcdn.net/thumb/1024x1024/100/336/177/products/6-388322da-c8c8-4788-b554-58c19436297d.jpg?v=1667726867210",
-            name: "Nike",
-            price: 5000000
-        },
-        {
-            img: "https://bizweb.dktcdn.net/thumb/1024x1024/100/336/177/products/1-16d8f466-71f5-45bf-9e00-6f221db1ec0c.jpg?v=1661500037070",
-            name: "Nike",
-            price: 6000000
-        },
-        {
-            img: "https://bizweb.dktcdn.net/thumb/1024x1024/100/336/177/products/5-3fb43760-763c-4c3f-89e1-fec01717ac5f.jpg?v=1679646687380",
-            name: "Nike",
-            price: 7000000
-        },
-        {
-            img: "https://bizweb.dktcdn.net/thumb/1024x1024/100/336/177/products/14-ed77366a-7214-435d-b2d0-1f6da3b783ce.jpg?v=1671701343243",
-            name: "Nike",
-            price: 8000000
-        },
-        {
-            img: "https://bizweb.dktcdn.net/thumb/1024x1024/100/336/177/products/7-4bf90c75-ee66-466a-b051-b993f3cfb5f0.jpg?v=1679048580127",
-            name: "Nike",
-            price: 1000000
-        },
-        {
-            img: "https://bizweb.dktcdn.net/thumb/1024x1024/100/336/177/products/1-4080110b-59d0-49c0-989b-61a1b597d526.jpg?v=1676967371430",
-            name: "Adidas",
-            price: 2000000
-        },
-        {
-            img: "https://bizweb.dktcdn.net/thumb/1024x1024/100/336/177/products/7-0966dca2-57c4-4ce9-b023-3c6eb42e05a0.jpg?v=1659612034717",
-            name: "Nike",
-            price: 3000000
-        },
-        {
-            img: "https://bizweb.dktcdn.net/thumb/1024x1024/100/336/177/products/31-21df0da4-c7b5-482a-9cb5-9c5a85f543bf.jpg?v=1671596539513",
-            name: "Adidas",
-            price: 4000000
-        },
-        {
-            img: "https://bizweb.dktcdn.net/thumb/1024x1024/100/336/177/products/6-388322da-c8c8-4788-b554-58c19436297d.jpg?v=1667726867210",
-            name: "Nike",
-            price: 5000000
-        },
-        {
-            img: "https://bizweb.dktcdn.net/thumb/1024x1024/100/336/177/products/1-16d8f466-71f5-45bf-9e00-6f221db1ec0c.jpg?v=1661500037070",
-            name: "Nike",
-            price: 6000000
-        },
-        {
-            img: "https://bizweb.dktcdn.net/thumb/1024x1024/100/336/177/products/5-3fb43760-763c-4c3f-89e1-fec01717ac5f.jpg?v=1679646687380",
-            name: "Nike",
-            price: 7000000
-        },
-        {
-            img: "https://bizweb.dktcdn.net/thumb/1024x1024/100/336/177/products/14-ed77366a-7214-435d-b2d0-1f6da3b783ce.jpg?v=1671701343243",
-            name: "Nike",
-            price: 8000000
-        },
-
-
-    ]
-
-    function displayProduct() {
-        let renderProduct = "";
-
-        for (let i = 0; i < dataAllProduct.length; i++) {
-            renderProduct +=
-                `
-                <div class="product" style=" padding:0 20px">
-                    <img src=${dataAllProduct[i].img} width="200px"  alt="ảnh">
-                    <h3> ${dataAllProduct[i].name}</h3>
-                    <p style="color: red">${dataAllProduct[i].price} $ USD</p>
-<!--                    <div style="box-shadow: 0 0 10px rgba(0,0,0.3)">-->
-                    <button class="btn-edit" onclick="editProduct()" >Edit</button><br><br>
-                    <button class="btn-delete" onclick="deleteProduct()">Delete</button><br><br>
-                    <button class="btn-add" onclick="addProduct()">Add To Cart</button>
-<!--                    </div>-->
-
-
-                </div>
-            `
-        }
-        document.getElementById("render-product").innerHTML = renderProduct
-    }
-
-    displayProduct();
-
-    function myFunction() {
-        let addTableProduct = `<table><br><br>
-
-
-
-
-
-                       Image: <tr><input type="text" placeholder=" Img Product "  id="inputImg"></tr><br><br>
-                       Name:  <tr><input type="text" placeholder="Name Product" id="inputName"></tr><br><br>
-                       Price: <tr><input type="text" placeholder="Price Product" id="inputPrice"></tr><br><br>
-
-
-                       <button onclick="newProduct()" style="width: 50px">Add</button>
-
-
-
-        `
-        addTableProduct += `</table>`
-
-
-        document.getElementById("result").innerHTML = addTableProduct
-
-    }
-
-    function newProduct() {
-        let image = document.getElementById("inputImg").value
-        let name = document.getElementById("inputName").value
-        let price = document.getElementById("inputPrice").value
-        dataAllProduct.push({img: image, name: name, price: price})
-        alert("Them san pham thanh cong")
-        displayProduct()
-
-
-    }
-
-
-</script>
 </html>
